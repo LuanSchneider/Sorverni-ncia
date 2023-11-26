@@ -1,0 +1,59 @@
+.caixa{
+position: absolute;
+left: 1px;
+    width: 1919px;
+    height: 576px;
+    flex-shrink: 0;
+    
+background: #FF4747;
+}
+.texto1{
+   position: absolute;
+   top: 131px;
+   left: 114px;
+   right: 980px;
+    width: 438px;
+    color: #D0D0D0;
+    font-family: Inter;
+    font-size: 23.996px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+.foto{
+    position: absolute;
+    top: 43px;
+    left: 1138px;
+    width: 428px;
+height: 337px;
+
+
+
+
+background: #D9D9D9;
+
+}
+.barra{
+    position: absolute;
+    top: 3px;
+    left:-43px ;
+    width: 1963px;
+height:30px;
+flex-shrink: 0;
+background: #CCC6D2;
+}
+
+.button {
+    width: 5000px;
+height: 31px;
+flex-shrink: 0;
+
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 23.996px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
