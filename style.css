@@ -8,12 +8,13 @@ left: 1px;
 }
 .caixa2{
     position: absolute;
+  
     height: 576px;
-    top: 723px;
-    left: -9px;
+    top: 650px;
+    left: 1px;
 
 
-    width: 1776px;
+    width: 1919px;
 height: 576px;
 flex-shrink: 0;
    background: #FF4747;
