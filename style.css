@@ -4,8 +4,23 @@ left: 1px;
     width: 1919px;
     height: 576px;
     flex-shrink: 0;
+    background: #FF4747;
+}
+.caixa2{
+    position: absolute;
+    height: 576px;
+    top: 723px;
+    left: -9px;
+
+
+    width: 1776px;
+height: 576px;
+flex-shrink: 0;
+   background: #FF4747;
+   
     
-background: #FF4747;
+
+    
 }
 .texto1{
    position: absolute;
@@ -22,8 +37,10 @@ background: #FF4747;
 
 }
 .foto{
-    position: absolute;
-    top: 43px;
+position: absolute;
+
+    
+    top: 76px;
     left: 1138px;
     width: 428px;
 height: 337px;
@@ -44,16 +61,28 @@ flex-shrink: 0;
 background: #CCC6D2;
 }
 
-.button {
-    width: 5000px;
-height: 31px;
-flex-shrink: 0;
 
-color: #000;
+.button{
+
+    position: absolute;
+
+    width: 186px;
+    height: 31px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    flex-shrink: 0;
+    
+    color: #000;
 text-align: center;
 font-family: Inter;
 font-size: 23.996px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+    
 }
