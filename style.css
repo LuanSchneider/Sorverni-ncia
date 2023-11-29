@@ -4,7 +4,7 @@ left: 1px;
     width: 1919px;
     height: 576px;
     flex-shrink: 0;
-    background: #FF4747;
+    background: #b4adad;
 }
 .caixa2{
     position: absolute;
@@ -17,7 +17,7 @@ left: 1px;
     width: 1919px;
 height: 576px;
 flex-shrink: 0;
-   background: #FF4747;
+   background: #b0b0b8;
    
     
 
@@ -29,7 +29,7 @@ flex-shrink: 0;
    left: 114px;
    right: 980px;
     width: 438px;
-    color: #D0D0D0;
+    color: #000000;
     font-family: Inter;
     font-size: 23.996px;
     font-style: normal;
@@ -45,6 +45,7 @@ position: absolute;
     left: 1138px;
     width: 428px;
 height: 337px;
+border-radius: 10px;
 
 
 
@@ -60,7 +61,63 @@ background: #D9D9D9;
 height:30px;
 flex-shrink: 0;
 background: #CCC6D2;
+
 }
+ul {
+    position: relative;
+    bottom:  12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f83c4;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 button{
