@@ -63,10 +63,11 @@ background: #CCC6D2;
 }
 
 
-.button{
+button{
 
     position: absolute;
-
+    left: 110px;
+    bottom: 680px;
     width: 186px;
     height: 31px;
     font-family: Inter;
