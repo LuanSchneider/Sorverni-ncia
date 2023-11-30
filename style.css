@@ -24,6 +24,16 @@ flex-shrink: 0;
 
     
 }
+.caixa3{
+  position: absolute;
+width: 1976px;
+height: 296px;
+left: 1px;
+top: 1319px;
+flex-shrink: 0;
+background: #b4adad;
+
+}
 .texto1{
    position: absolute;
    top: 131px;
@@ -204,4 +214,21 @@ font-weight: 600;
 line-height: 29px;
 letter-spacing: 0em;
 text-align: right;
+}
+.texto5{
+  position: absolute;
+  width: 365px;
+height: 86px;
+top: 1342px;
+left: 783px;
+flex-shrink: 0;
+color: #4b4747;
+text-align: center;
+font-family: Inknut Antiqua;
+font-size: 23.996px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2.879px;
+
 }
