@@ -35,6 +35,7 @@ background: #b4adad;
 
 }
 .texto1{
+  cursor: default;
    position: absolute;
    top: 131px;
    left: 114px;
@@ -44,7 +45,7 @@ background: #b4adad;
     font-family: Inter;
     font-size: 23.996px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 900px;
     line-height: normal;
 
 }
@@ -159,6 +160,7 @@ font-weight: 600;
 line-height: normal;    
 }
 .foto2{
+  cursor: default;
   position: absolute;
   top: 745px;
   left: 138px;
@@ -172,6 +174,7 @@ background-repeat: no-repeat;
 background-position: center;
 }
 .texto2{
+  cursor: default;
   position: relative;
  width: 306px;
 height: 29px;
@@ -187,6 +190,7 @@ font-weight: 600;
 line-height: normal;
 }
 .texto3{
+  cursor: default;
   position: relative;
  width: 356px;
 height: 48px;
@@ -202,6 +206,7 @@ font-weight: 900;
 line-height: normal;
 }
 .texto4{
+  cursor: default;
   position: relative;
   width: 514px;
 height:552px;
@@ -231,4 +236,29 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 2.879px;
 
+}
+@media only screen and (min-device-width:0px) and(max-device-width:800px){
+  .caixa{
+    left: 1px;
+    width: 1919px;
+    height: 576px;
+    flex-shrink: 0;             
+  }
+  .caixa2{
+    height: 576px;
+    top: 650px;
+    left: 1px;
+
+
+    width: 1919px;
+height: 576px;
+flex-shrink: 0;
+  }
+  .caixa3{
+    width: 1976px;
+height: 296px;
+left: 1px;
+top: 1319px;
+flex-shrink: 0;
+  }
 }
