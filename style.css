@@ -35,6 +35,7 @@ background: #b4adad;
 
 }
 .texto1{
+  display: flex;
   cursor: default;
    position: absolute;
    top: 131px;
@@ -261,4 +262,29 @@ left: 1px;
 top: 1319px;
 flex-shrink: 0;
   }
+}
+@media only screen and (max-width: 800px) {
+  .caixa,
+  .caixa2,
+  .caixa3 {
+    height: auto;
+    flex-direction: column;
+
+  }
+
+  .texto1,
+  .foto,
+  .barra,
+  button,
+  .foto2,
+  .texto2,
+  .texto3,
+  .texto4,
+  .texto5 {
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+  }
+
+  /* Adjust other styles for smaller screens here */
 }
