@@ -32,7 +32,12 @@ left: 1px;
 top: 1319px;
 flex-shrink: 0;
 background: #b4adad;
-
+overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 .texto1{
   display: flex;
@@ -287,4 +292,12 @@ flex-shrink: 0;
   }
 
   /* Adjust other styles for smaller screens here */
+ 
+
+
+  .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
