@@ -288,52 +288,56 @@ line-height: normal;
 letter-spacing: 2.879px;
 
 }
-@media only screen and (min-device-width:0px) and(max-device-width:800px){
-  .caixa{
-    left: 1px;
-    width: 1919px;
-    height: 576px;
-    flex-shrink: 0;             
-  }
-  .caixa2{
-    height: 576px;
-    top: 650px;
-    left: 1px;
-
-
-    width: 1919px;
-height: 576px;
-flex-shrink: 0;
-  }
-  .caixa3{
-    width: 1976px;
-height: 296px;
-left: 1px;
-top: 1319px;
-flex-shrink: 0;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .caixa,
-  .caixa2,
-  .caixa3 {
-    height: auto;
-    flex-direction: column;
-
-  }
-
-  .texto1,
-  .foto,
-  .barra,
-  button,
-  .foto2,
-  .texto2,
-  .texto3,
-  .texto4,
-  .texto5 {
+@media (max-width: 600px) {
+  .carrosel {
     width: 100%;
     left: 0;
-    flex-direction: column;
   }
 
+  .carrosel ul {
+    width: 400%;
+  }
+
+  .caixa, .caixa2, .caixa3 {
+    width: 100%;
+    left: 0;
+  }
+
+  .texto1 {
+    left: 10px;
+    right: 10px;
+    width: calc(10% - 1120px);
+  }
+
+  .foto {
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .barra {
+    left: 0;
+    width: 100%;
+  }
+
+  button {
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .foto2 {
+    left: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .container {
+    right: 10px;
+    width: calc(100% - 40px);
+  }
 }
+.texto2, .texto3, .texto4, .texto5 {
+  position: static;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
