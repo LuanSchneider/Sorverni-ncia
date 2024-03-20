@@ -259,7 +259,7 @@ box-shadow: 10px,10px,15px,rgba(0,0,0,0.7);
 
  .texto3, .texto4 {
   position: relative;
-  top: 180px;
+  top: 10px;
   font-family: Arial, sans-serif;
   text-align: right;
   color: #000000;
