@@ -25,7 +25,7 @@
 
 .carrosel ul li img {
   width: 100%;
-  height: 300px; /* ajuste este valor para a altura desejada */
+  height: 300px; 
   object-fit: cover;
 }
 .carrosel li{
