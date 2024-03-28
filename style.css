@@ -122,7 +122,7 @@ background: #b4adad;
     width: 1963px;
 height:30px;
 flex-shrink: 0;
-background: #CCC6D2;
+
 
 }
 ul {
@@ -151,7 +151,9 @@ ul {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(56, 43, 43);
+    border-radius: 75%;
+    opacity: 12px;
   }
   
   li.dropdown {
