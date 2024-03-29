@@ -292,3 +292,18 @@ line-height: normal;
 letter-spacing: 2.879px;
 
 }
+@media(max-width:760px){
+  button{
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 34rem;
+  }
+.texto1{
+position: absolute;
+  flex-direction: column;
+  align-items: center;
+  bottom: 12rem;
+  
+}
+}
