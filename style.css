@@ -1,6 +1,39 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+}
+body{
+  font-size: 1.6rem;
+  margin-top: 15rem;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar ul{
+  position: fixed;
+  padding: 0%;
+  margin: 0%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 30;
+  background-color: #4b4747;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.b a  {
+  font-size: 150%;
+ display: inline-block;
+ align-items: center;
+  color: white;
+  border:solid 20%;
+background-color: #4b4747;
+  text-decoration: none;
+  position: absolute ;
+  left: 12%;
 }
 
 .carrosel {
@@ -71,100 +104,38 @@
 
 
 
-.caixa {
-  position: absolute;
-  left: 1px;
-  width: 1919px;
-  height: 576px;
-  flex-shrink: 0;
-  background: #b4adad;
-}
-
-.caixa2 {
-
-  position: absolute;
-
-  height: 576px;
-  top: 650px;
-  left: 1px;
 
 
-  width: 1919px;
-  height: 576px;
-  flex-shrink: 0;
-  background: #b4adad;
-
-
-
-
-}
-
-.caixa3 {
-  position: absolute;
-  width: 1919px;
-  height: 476px;
-  left: 1px;
-  top: 1300px;
-  flex-shrink: 0;
-  background: #b4adad;
-
-}
 
 .texto1 {
   display: flex;
   cursor: default;
   position: absolute;
-  top: 131px;
-  left: 114px;
-  right: 980px;
-  width: 438px;
-  color: #000000;
-  font-family: Inter;
-  font-size: 23.996px;
-  font-style: normal;
-  font-weight: 900px;
-  line-height: normal;
+  top: 25%;
+  left: 12%;
+right: 55%;
 
 }
 
 .foto {
   position: absolute;
   top: 76px;
-  left: 1138px;
+  left:55% ;
   width: 428px;
   height: 337px;
   border-radius: 10px;
   background: #D9D9D9;
   background-image: url("imagem/OIP\ \(2\).jpg");
   background-size: 120%;
-  background-repeat: no-repeat;
+
   background-position: center;
   box-shadow: 10px, 10px, 15px, rgba(0, 0, 0, 0.7);
   outline: 3px solid black;
 }
 
-.barra {
-
-  position: absolute;
-  top: 3px;
-  left: -43px;
-  width: 1963px;
-  height: 30px;
-  flex-shrink: 0;
 
 
-}
 
-ul {
-
-  position: relative;
-  bottom: 12px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #2f83c4;
-}
 
 li {
   float: left;
@@ -219,32 +190,7 @@ li.dropdown {
 }
 
 
-button {
 
-
-  background-position: center;
-  position: absolute;
-  left: 110px;
-  bottom: 650px;
-  width: 186px;
-  height: 31px;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: center;
-
-  flex-shrink: 0;
-
-  color: #000;
-  text-align: center;
-  font-family: Inter;
-  font-size: 23.996px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
 
 .foto2 {
   cursor: default;
@@ -277,7 +223,7 @@ button {
 
 }
 
-.texto2 {
+#texto2 {
   cursor: default;
   position: absolute;
   width: 306px;
@@ -296,19 +242,13 @@ button {
 
 }
 
-.texto3,
-.texto4 {
-  position: relative;
-  top: 10px;
-  font-family: Arial, sans-serif;
-  text-align: right;
-  color: #000000;
-  font-family: Inter;
-  font-size: 23.996px;
-  font-style: normal;
-  font-weight: 900px;
-  line-height: normal;
 
+.texto4  {
+  position: absolute;
+  top: 170%;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -333,23 +273,7 @@ button {
 
 @media only screen and (max-width: 600px) {
 
-  button{
-    position: absolute;
-  align-items: center;
-justify-content: center;
-right: 3px;
 
-  } 
-  .texto1{
-    position: absolute;
-    top: 355px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-  }
-
-}
 
 @media only screen and (min-width: 600px) {
 
@@ -367,4 +291,4 @@ right: 3px;
 @media only screen and (min-width: 1200px) {
 
 }
-
+}

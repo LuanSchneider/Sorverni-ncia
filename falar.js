@@ -1,5 +1,4 @@
- function falar(){
-   window.open(
-    'https://api.whatsapp.com/send?phone=555398172519'
-   );
- }
+window.addEventListener('scroll', function () {
+  if (this.window.pageYOffset > 0) return navbar.classList.add('active');
+  return navbar.classList.remove('active');
+});
