@@ -279,24 +279,32 @@ align-items: center;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 
+  .navbar ul {
+    display: flex;
+    align-items: center;
+  }
 
-}
-@media only screen and (min-width: 600px) {
+  img {
+    width: 3.6rem;
+    height: 3.6rem;
+    cursor: pointer;
+  }
 
-}
+  
 
+li {
+    margin-right: 0;
+  }
 
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 992px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-
+  li a {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+  }
 }
 
