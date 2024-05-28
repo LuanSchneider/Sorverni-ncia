@@ -24,17 +24,25 @@ body{
   display: flex;
   align-items: center;
 }
-.b a  {
-  font-size: 150%;
- display: inline-block;
- align-items: center;
-  color: white;
-  border:solid 20%;
-background-color: #4b4747;
-  text-decoration: none;
-  position: absolute ;
+.b a {
+  position: absolute;
   left: 12%;
+  top: 40%;
+  background-color: #441e44; /* Cor roxa */
+  color: white; /* Texto branco para contraste */
+  padding: 12px 10px; /* Espaçamento interno */
+
+  text-decoration: none; /* Sem sublinhado no texto */
+  display: flex; /* Tipo de exibição */
+  font-size: 16px; /* Tamanho da fonte */
+ 
+  cursor: pointer; /* Cursor em forma de ponteiro */
+  border-radius: 5%;
+
 }
+
+
+
 
 .carrosel {
   position: absolute;
@@ -274,7 +282,7 @@ align-items: center;
 @media only screen and (max-width: 600px) {
 
 
-
+}
 @media only screen and (min-width: 600px) {
 
 }
@@ -291,4 +299,4 @@ align-items: center;
 @media only screen and (min-width: 1200px) {
 
 }
-}
+
