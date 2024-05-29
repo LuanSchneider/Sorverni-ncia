@@ -198,7 +198,9 @@ li.dropdown {
 }
 
 
-
+.benvindo{
+  position: absolute;
+}
 
 .foto2 {
   cursor: default;
@@ -279,32 +281,79 @@ align-items: center;
 
 }
 
-@media only screen and (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
+@media only screen and (max-width: 868px) {
+ 
 
   .navbar ul {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    
+  }
+  .texto1{
+    position: absolute;
+    top: 10%;
+    
+  }
+  .texto5{
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    
+  }
+  .foto{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    margin: auto;
+    height: 30%;
   }
 
-  img {
-    width: 3.6rem;
-    height: 3.6rem;
-    cursor: pointer;
-  }
+.benvindo{
+  position: absolute;
+  left: 55%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento exato */
+  width: 80%; /* Largura relativa para responsividade */
+  font-size: 25px; /* Tamanho inicial da fonte */
+  top: 65%;
+}
+.texto4 {
+  position: absolute;
+ top: 230%; /* Isso posicionará o elemento na parte inferior do elemento pai */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento exato */
+  width: 80%; /* Largura relativa para responsividade */
+  font-size: 25px; /* Tamanho inicial da fonte */
+  text-align:justify; /* Alinhamento do texto */
+margin: 4%;
+  padding: 0%; /* Espaçamento interno */
 
+}
+.foto2{
+  position: absolute;
+  top: 85%;
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento exato */
+  width: 80%; /* Largura relativa para responsividade */
+  font-size: 25px; /* Tamanho inicial da fonte */
   
 
-li {
-    margin-right: 0;
-  }
-
-  li a {
-    padding: 1rem;
-    display: block;
-    text-align: center;
-  }
 }
+.carrosel{
+  position: absolute;
+  top: 155%;
+}
+.texto5{
+  position: absolute;
+  top: 150%;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+
 
