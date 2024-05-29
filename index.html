@@ -8,17 +8,394 @@
 
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <tible id="sorveteria" </head>
+ 
 
 <body>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+}
+body{
+  font-size: 1.6rem;
+  margin-top: 15rem;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar ul{
+  position: fixed;
+  padding: 0%;
+  margin: 0%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 30;
+  background-color: #4b4747;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.b a {
+  position: absolute;
+  left: 12%;
+  top: 40%;
+  background-color: #441e44; /* Cor roxa */
+  color: white; /* Texto branco para contraste */
+  padding: 12px 10px; /* Espaçamento interno */
+
+  text-decoration: none; /* Sem sublinhado no texto */
+  display: flex; /* Tipo de exibição */
+  font-size: 16px; /* Tamanho da fonte */
+ 
+  cursor: pointer; /* Cursor em forma de ponteiro */
+  border-radius: 5%;
+
+}
+
+
+
+
+.carrosel {
+  position: absolute;
+  top: 1350px;
+  left: 150px;
+  width: 300px;
+  height: 260px;
+  outline: 3px solid black;
+  overflow: hidden;
+  margin: 50px auto;
+  box-shadow: 10px, 10px, 15px, rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+
+}
+
+.carrosel ul {
+  display: flex;
+  list-style: none;
+  width: 1200px;
+  list-style: none;
+}
+
+.carrosel ul li img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.carrosel li {
+  position: relative;
+  animation: slide 15s infinite ease-out
+}
+
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+
+  25% {
+    left: 0px;
+  }
+
+  30% {
+    left: -300px;
+  }
+
+  55% {
+    left: -300px;
+  }
+
+  60% {
+    left: -600px;
+  }
+
+  85% {
+    left: -600px;
+  }
+
+  90% {
+    left: -900px;
+  }
+
+  100% {
+    left: -900px;
+  }
+}
+
+
+
+
+
+
+.texto1 {
+  display: flex;
+  cursor: default;
+  position: absolute;
+  top: 25%;
+  left: 12%;
+right: 55%;
+
+}
+
+.foto {
+  position: absolute;
+  top: 76px;
+  left:55% ;
+  width: 428px;
+  height: 337px;
+  border-radius: 10px;
+  background: #D9D9D9;
+  background-image: url("imagem/OIP\ \(2\).jpg");
+  background-size: 120%;
+
+  background-position: center;
+  box-shadow: 10px, 10px, 15px, rgba(0, 0, 0, 0.7);
+  outline: 3px solid black;
+}
+
+
+
+
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  position: relative;
+  left: 50px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(56, 43, 43);
+  border-radius: 75%;
+  opacity: 12px;
+}
+
+li.dropdown {
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.benvindo{
+  position: absolute;
+}
+
+.foto2 {
+  cursor: default;
+  position: absolute;
+  top: 745px;
+  left: 138px;
+  width: 428px;
+  height: 337px;
+  border-radius: 10px;
+  background: #D9D9D9;
+  background-image: url("imagem/358379a1-8f80-4592-9fdd-62c84d26ac8a.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 10px, 10px, 15px, rgba(0, 0, 0, 0.7);
+  outline: 3px solid black;
+}
+
+.container {
+  position: absolute;
+  bottom: 12px;
+  right: 30PX;
+  width: 550PX;
+  height: 155PX;
+  padding: 22px;
+  margin: 10px;
+
+
+  border-radius: 5px;
+
+}
+
+#texto2 {
+  cursor: default;
+  position: absolute;
+  width: 306px;
+  height: 29px;
+  top: 670px;
+  left: 783px;
+  flex-shrink: 0;
+  color: #4b4747;
+  text-align: center;
+  font-family: Inter;
+  font-size: 23.996px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  white-space: nowrap;
+
+}
+
+
+.texto4  {
+  position: absolute;
+  top: 170%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.texto5 {
+  position: absolute;
+  width: 365px;
+  height: 86px;
+  top: 1342px;
+  left: 783px;
+  flex-shrink: 0;
+  color: #4b4747;
+  text-align: center;
+  font-family: Inknut Antiqua;
+  font-size: 23.996px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.879px;
+
+}
+
+@media only screen and (max-width: 768px) {
+ 
+
+  .navbar ul  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+    
+  }
+  .navbar li{
+    position: relative;
+    right: 12%;
+  }
+
+  
+  
+
+  .texto1{
+    position: absolute;
+    top: 10%;
+    font-size: 60%;
+    text-align:left; /* Alinhamento do texto */
+    margin: 3%;
+   
+  }
+  .texto5{
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    
+  }
+  .foto{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    margin: auto;
+    height: 30%;
+  }
+
+.benvindo{
+  position: absolute;
+  left: 55%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento exato */
+  width: 80%; /* Largura relativa para responsividade */
+  font-size: 25px; /* Tamanho inicial da fonte */
+  top: 55%;
+}
+.texto4 {
+  position: absolute;
+ top: 230%; /* Isso posicionará o elemento na parte inferior do elemento pai */
+  left: 65%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento exato */
+  width: 80%; /* Largura relativa para responsividade */
+  font-size: 18px; /* Tamanho inicial da fonte */
+  text-align:justify; /* Alinhamento do texto */
+margin: 6%;
+padding: 7%;
+  
+
+}
+.foto2{
+  position: absolute;
+  top: 85%;
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento exato */
+  width: 80%; /* Largura relativa para responsividade */
+  font-size: 25px; /* Tamanho inicial da fonte */
+  
+
+}
+.carrosel{
+  position: absolute;
+  top: 155%;
+  left: 10%;
+}
+.texto5{
+  position: absolute;
+  top: 150%;
+  left: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+
+
+
+    </style>
     <nav class="navbar">
-        <div>
+        
             <ul>
                 <li><a href="">Produtos</a></li>
                 <li><a href="style.css/#texto2">sabores</a></li>
                 <li><a href="">sobre</a></li>
             </ul>
-        </div>
+        
     </nav>
     <div class="caixa"></div>
     <div class="caixa2"></div>
